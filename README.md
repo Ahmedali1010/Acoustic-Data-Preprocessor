@@ -21,13 +21,17 @@ Ensure the following dependencies are installed in your environment:
 * `FFmpeg` (Must be installed natively and appended to the system `PATH`)
 
 **Installation via requirements:**
-```bash
+
 pip install -r requirements.txt
+
 Usage
 Execute the preprocessing pipeline via the command line interface. Define the target directory containing the raw audio files and specify the desired utterance duration in milliseconds.
 
-Bash
+
 python audio_chunker.py --input /path/to/raw/dataset --chunk_ms 1000
+
+
+
 Associated Dataset & Cross-Reference
 This codebase was originally engineered to construct and partition a proprietary biometric dataset for Central Kurdish.
 
